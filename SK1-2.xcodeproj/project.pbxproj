@@ -16,6 +16,10 @@
 		84A76B0616E5587500B77B6D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B0416E5587500B77B6D /* MainStoryboard_iPhone.storyboard */; };
 		84A76B0916E5587500B77B6D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B0716E5587500B77B6D /* MainStoryboard_iPad.storyboard */; };
 		84A76B0C16E5587500B77B6D /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A76B0B16E5587500B77B6D /* SKViewController.m */; };
+		84A76B1416E55D1800B77B6D /* wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B1316E55D1800B77B6D /* wrench.png */; };
+		84A76B1616E55D7900B77B6D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B1516E55D7900B77B6D /* user.png */; };
+		84A76B1816E55D8000B77B6D /* lock1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B1716E55D8000B77B6D /* lock1.png */; };
+		84A76B1A16E55D8700B77B6D /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A76B1916E55D8700B77B6D /* key.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +27,20 @@
 		84A76AF216E5587500B77B6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84A76AF416E5587500B77B6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A76AF616E5587500B77B6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		84A76AFA16E5587500B77B6D /* SK1-2-Info.plist */ = {isa = PBXFileReference; path = "SK1-2-Info.plist"; sourceTree = "<group>"; };
+		84A76AFA16E5587500B77B6D /* SK1-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SK1-2-Info.plist"; sourceTree = "<group>"; };
 		84A76AFC16E5587500B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84A76AFE16E5587500B77B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84A76B0016E5587500B77B6D /* SK1-2-Prefix.pch */ = {isa = PBXFileReference; path = "SK1-2-Prefix.pch"; sourceTree = "<group>"; };
-		84A76B0116E5587500B77B6D /* SKAppDelegate.h */ = {isa = PBXFileReference; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		84A76B0016E5587500B77B6D /* SK1-2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SK1-2-Prefix.pch"; sourceTree = "<group>"; };
+		84A76B0116E5587500B77B6D /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
 		84A76B0216E5587500B77B6D /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
 		84A76B0516E5587500B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		84A76B0816E5587500B77B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		84A76B0A16E5587500B77B6D /* SKViewController.h */ = {isa = PBXFileReference; path = SKViewController.h; sourceTree = "<group>"; };
+		84A76B0A16E5587500B77B6D /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKViewController.h; sourceTree = "<group>"; };
 		84A76B0B16E5587500B77B6D /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKViewController.m; sourceTree = "<group>"; };
+		84A76B1316E55D1800B77B6D /* wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrench.png; sourceTree = "<group>"; };
+		84A76B1516E55D7900B77B6D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		84A76B1716E55D8000B77B6D /* lock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock1.png; sourceTree = "<group>"; };
+		84A76B1916E55D8700B77B6D /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		84A76AF816E5587500B77B6D /* SK1-2 */ = {
 			isa = PBXGroup;
 			children = (
+				84A76B1216E55CE000B77B6D /* Images */,
 				84A76B0116E5587500B77B6D /* SKAppDelegate.h */,
 				84A76B0216E5587500B77B6D /* SKAppDelegate.m */,
 				84A76B0416E5587500B77B6D /* MainStoryboard_iPhone.storyboard */,
@@ -99,6 +108,17 @@
 				84A76B0016E5587500B77B6D /* SK1-2-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A76B1216E55CE000B77B6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84A76B1916E55D8700B77B6D /* key.png */,
+				84A76B1716E55D8000B77B6D /* lock1.png */,
+				84A76B1516E55D7900B77B6D /* user.png */,
+				84A76B1316E55D1800B77B6D /* wrench.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +175,10 @@
 				84A76AFD16E5587500B77B6D /* InfoPlist.strings in Resources */,
 				84A76B0616E5587500B77B6D /* MainStoryboard_iPhone.storyboard in Resources */,
 				84A76B0916E5587500B77B6D /* MainStoryboard_iPad.storyboard in Resources */,
+				84A76B1416E55D1800B77B6D /* wrench.png in Resources */,
+				84A76B1616E55D7900B77B6D /* user.png in Resources */,
+				84A76B1816E55D8000B77B6D /* lock1.png in Resources */,
+				84A76B1A16E55D8700B77B6D /* key.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

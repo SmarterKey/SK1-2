@@ -7,14 +7,43 @@
 //
 
 #import "SKAppDelegate.h"
+#import "Device.h"
+#import "DevicesViewController.h"
 
-@implementation SKAppDelegate
+@implementation SKAppDelegate {
+    NSMutableArray *devices;
+}
 
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    devices = [NSMutableArray arrayWithCapacity:10];
+    Device *device = [[Device alloc] init];
+    device.name = @"Front Door";
+    device.gsmNumber = 07980386607;
+    device.passCode = @"12345";
+    [devices addObject:device];
+    
+    device = [[Device alloc] init];
+    device.name = @"Level 1";
+    device.gsmNumber = 07583098800;
+    device.passCode = @"12345";
+    [devices addObject:device];
+    
+    device = [[Device alloc] init];
+    device.name = @"Level 2";
+    device.gsmNumber = 07583097055;
+    device.passCode = @"12345";
+    [devices addObject:device];
+    
+    device = [[Device alloc] init];
+    device.name = @"Level 3";
+    device.gsmNumber = 07544888294;
+    device.passCode = @"12345";
+    [devices addObject:device];
+
     return YES;
 }
 							

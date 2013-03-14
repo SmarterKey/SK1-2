@@ -6,11 +6,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Devices-->
+        <!--Devices View Controller - Devices-->
         <scene sceneID="2Dx-o3-86V">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AIb-Hp-oea" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="WVF-S6-9iJ" sceneMemberID="viewController">
+                <tableViewController id="WVF-S6-9iJ" customClass="DevicesViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hcS-X3-puA">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,6 +119,11 @@
         <image name="user.png" width="24" height="21"/>
         <image name="wrench.png" width="24" height="24"/>
     </resources>
+    <classes>
+        <class className="DevicesViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DevicesViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
